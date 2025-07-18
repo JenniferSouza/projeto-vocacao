@@ -9,6 +9,19 @@ Step 1: start your Drupal 10 environment by typing "lando start" on your termina
 lando start
 ```
 
+### Install Module Restui 
+
+```bash
+lando composer require drupal/restui
+lando drush en rest restui
+```
+
+### Name View: \web\core\modules\views\views.views.voting_results.yml
+
+### Module Name simple_voting_module
+```bash
+lando drush en simple_voting_module
+ ´´´´
 
 URLS
 √ APPSERVER NGINX URLS
