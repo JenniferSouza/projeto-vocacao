@@ -21,7 +21,7 @@ lando drush en rest restui
 ### Module Name simple_voting_module
 ```bash
 lando drush en simple_voting_module
- ´´´´
+```
 
 URLS
 √ APPSERVER NGINX URLS
